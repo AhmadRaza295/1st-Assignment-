@@ -1,4 +1,6 @@
-str_x = "Emma is good developer. Emma is a writer"
-# use count method of a str class
-cnt = str_x.count("Emma")
-print(cnt)
+num_list = [10, 20, 33, 46, 55]
+print("Given list:", num_list)
+print('Divisible by 5:')
+for num in num_list:
+    if num % 5 == 0:
+        print(num)
